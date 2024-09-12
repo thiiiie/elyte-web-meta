@@ -13,6 +13,7 @@ import { useMemo, useState } from "react";
 import { toast } from "sonner";
 import { options } from "./_helpers/options";
 
+
 export const HomeForm = () => {
 	const [value, setValue] = useState("0,00");
 	const [selectedOptions, setSelectedOptions] = useState(options);

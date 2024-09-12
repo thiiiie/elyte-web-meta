@@ -92,7 +92,7 @@ export default function PaymentPage() {
 					O pagamento será confirmado imediatamente
 				</p>
 
-				<span className="text-2xl font-bold text-[#3db1a5]">R$ 37,00</span>
+				<span className="text-2xl font-bold text-[#3db1a5]">R$ 57,00</span>
 
 				<Button asChild>
 					<Link href="https://checkout.syfrapay.com/12dd37-3/checkout/lkkowTTg8IZ8xhg">
