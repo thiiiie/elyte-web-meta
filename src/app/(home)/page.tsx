@@ -1,10 +1,10 @@
-import { HomeForm } from "./_form";
 import PageLayout from "@/components/PageLayout";
+import { HomeForm } from "./_form";
 
 export default function Home() {
-  return (
-    <PageLayout>
-      <HomeForm />
-    </PageLayout>
-  );
+	return (
+		<PageLayout>
+			<HomeForm />
+		</PageLayout>
+	);
 }

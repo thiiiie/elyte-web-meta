@@ -10,5 +10,5 @@ export function birthDateMask(value: string) {
 		valorFormatado = `${valor.slice(0, 2)}/${valor.slice(2, 4)}/${valor.slice(4, 8)}`;
 	}
 
-  return valorFormatado;
+	return valorFormatado;
 }

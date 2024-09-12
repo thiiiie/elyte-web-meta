@@ -13,7 +13,8 @@
 			"!*.ts",
 			"tsconfig.json",
 			"src/components/ui/**/*.ts",
-			"src/components/ui/**/*.tsx"
+			"src/components/ui/**/*.tsx",
+			"src/components/ui/*.tsx"
 		],
 		"ignoreUnknown": true
 	},
@@ -30,6 +31,6 @@
 		"jsxRuntime": "reactClassic",
 		"parser": {
 			"unsafeParameterDecoratorsEnabled": true
-		},
+		}
 	}
 }
