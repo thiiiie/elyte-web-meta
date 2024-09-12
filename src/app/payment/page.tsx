@@ -95,7 +95,7 @@ export default function PaymentPage() {
 				<span className="text-2xl font-bold text-[#3db1a5]">R$ 57,00</span>
 
 				<Button asChild>
-					<Link href="https://checkout.syfrapay.com/12dd37-3/checkout/lkkowTTg8IZ8xhg">
+					<Link href="https://checkout.syfrapay.com/12dd37-3/checkout/wgrnW3VynKRNre9">
 						Pagar agora
 					</Link>
 				</Button>
