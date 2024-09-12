@@ -1,0 +1,35 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.7.0/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"files": {
+		"include": ["**/*.ts", "**/*.tsx", "**/*.jsx"],
+		"ignore": [
+			"**/*.d.ts",
+			"*.config.json",
+			"*.config.js",
+			"*.config.ts",
+			"!*.ts",
+			"tsconfig.json",
+			"src/components/ui/**/*.ts",
+			"src/components/ui/**/*.tsx"
+		],
+		"ignoreUnknown": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"a11y": {
+				"useMediaCaption": "off"
+			}
+		}
+	},
+	"javascript": {
+		"jsxRuntime": "reactClassic",
+		"parser": {
+			"unsafeParameterDecoratorsEnabled": true
+		},
+	}
+}
