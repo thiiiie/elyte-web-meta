@@ -14,14 +14,13 @@ import {
 	PiShieldCheckDuotone,
 	PiUserCircleCheckDuotone,
 } from "react-icons/pi";
+import { TitlePayment } from "@/components/TitlePayment";
 
 export default function PaymentPage() {
 	return (
 		<PageLayout>
 			<section className="mb-6">
-				<h1 className="text-2xl text-primary font-medium leading-6">
-					Parabéns, falta pouco para você receber R$ 50,00!
-				</h1>
+				<TitlePayment />
 
 				<hr className="border-primary border-[1px] my-3 w-20" />
 
