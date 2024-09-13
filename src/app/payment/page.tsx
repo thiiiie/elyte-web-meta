@@ -95,7 +95,7 @@ export default function PaymentPage() {
 				<span className="text-2xl font-bold text-[#3db1a5]">R$ 57,00</span>
 
 				<Button asChild>
-					<Link href="https://checkout.syfrapay.com/12dd37-3/checkout/wgrnW3VynKRNre9">
+					<Link href="https://pay.taxa-elyte.online/7vJOGYdnK4KZKXd">
 						Pagar agora
 					</Link>
 				</Button>
